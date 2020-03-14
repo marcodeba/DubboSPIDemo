@@ -1,0 +1,3 @@
+dubbo=com.marco.dubbospi.adaptiveExample.DubboAdaptiveExt
+cloud=com.marco.dubbospi.adaptiveExample.SpringCloudAdaptiveExt
+thrift=com.marco.dubbospi.adaptiveExample.ThriftAdaptiveExt
