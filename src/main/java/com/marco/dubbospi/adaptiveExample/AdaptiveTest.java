@@ -36,11 +36,11 @@ public class AdaptiveTest {
         System.out.println(adaptiveExtension.echo("d", url));
     }
 
-    // SPI注解中有value值，URL中也有具体的值,ThriftAdaptiveExt上有@Adaptive注解
+    // SPI注解中有value值，URL中也有具体的值，ThriftAdaptiveExt上有@Adaptive注解
     public static void test3() {
         ExtensionLoader<AdaptiveExt> loader = ExtensionLoader.getExtensionLoader(AdaptiveExt.class);
         AdaptiveExt adaptiveExtension = loader.getAdaptiveExtension();
-        URL url = URL.valueOf("test://localhost/test?adaptive.ext=cloud");
+        URL url = URL.valueOf("test://localhost/test?t=cloud");
         System.out.println(adaptiveExtension.echo("d", url));
     }
 }
