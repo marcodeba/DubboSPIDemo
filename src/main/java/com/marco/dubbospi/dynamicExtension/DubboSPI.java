@@ -1,6 +1,6 @@
 package com.marco.dubbospi.dynamicExtension;
 
-import com.marco.dubbospi.Robot;
+import com.marco.javaspi.Robot;
 import org.apache.dubbo.common.URL;
 import org.apache.dubbo.common.extension.ExtensionLoader;
 

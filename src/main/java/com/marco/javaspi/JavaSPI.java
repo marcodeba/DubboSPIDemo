@@ -1,10 +1,10 @@
-package com.marco.dubbospi;
+package com.marco.javaspi;
 
 import java.util.ServiceLoader;
 
 public class JavaSPI {
     public static void main(String[] args) {
         ServiceLoader<Robot> serviceLoader = ServiceLoader.load(Robot.class);
-        serviceLoader.forEach(Robot::sayHello);
+        serviceLoader.forEach((robot) -> robot.sayHello());
     }
 }

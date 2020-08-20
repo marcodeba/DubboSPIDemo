@@ -1,4 +1,4 @@
-package com.marco.dubbospi;
+package com.marco.javaspi;
 
 
 import org.apache.dubbo.common.URL;
