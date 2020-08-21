@@ -10,7 +10,9 @@ public class DubboPrime implements Robot {
     }
 
     @Override
-    public void sayHello() {}
+    public void sayHello() {
+        System.out.println("DubboPrime say Hello");
+    }
 
     @Override
     public String echo(URL url) {

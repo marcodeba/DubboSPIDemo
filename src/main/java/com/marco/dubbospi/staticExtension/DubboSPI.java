@@ -16,6 +16,7 @@ public class DubboSPI {
 
         ExtensionLoader<Robot> extensionLoader = ExtensionLoader.getExtensionLoader(Robot.class);
         Robot robot = extensionLoader.getExtension("dubboPrime");
+        robot.sayHello();
 
         Map<String, String> paramMap = new HashMap<>();
         paramMap.put("robot", "bumblebee");
